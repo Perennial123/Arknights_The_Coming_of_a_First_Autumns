@@ -1,0 +1,94 @@
+* {
+    font-size: 20px;
+}
+
+@font-face {
+    font-family: "nuku";
+    src: url(nuku-nuku/nuku1.ttf) format("truetype");
+}
+
+@keyframes fade-in {
+    0% {opacity: 0;}
+    100% {opacity: 1}
+}
+
+
+.navbar ul{
+    list-style-type: none;
+    background-image: linear-gradient(to right,  #280b0b, #842c2c);
+    padding: 0px;
+    margin: 0px;
+    border: 5px solid #F3F3F3; 
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navbar a {
+    color: #F3F3F3;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+.navbar a:hover {
+    background-color: #040404;
+}
+
+.links a:active {
+    background-color: aliceblue;
+}
+
+
+body {
+    margin: 0px;
+    background-image: linear-gradient(to bottom, #da7623, #f98f38, #f89d53, #F3F3F3, #4d3e39);
+    /* #F4F6F6 */
+    min-height: 100vh;
+    font-family: "nuku", 'Courier New', Courier, monospace;
+}
+
+h1 {
+    animation: fade-in 5s;
+    /* font-family: "nuku", 'Courier New', Courier, monospace; */
+    text-align: center;
+    /* color: #561818; */
+    font-size: 75px;
+    background: linear-gradient(#631a1a, #231818);
+    background-clip: text;
+    color: transparent
+}
+
+/* h3 {
+    text-align: center;
+} */
+
+
+.wang {
+    margin: 0px 0px 0px 0px;
+    float: left;
+}
+
+.head-icon {
+    animation: fade-in 5s;
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    height: 300px;
+}
+
+.images {
+    border: #040404;
+    border-image: auto;
+    border-style: double;
+    border-radius: 5%;
+    size: 100px;
+    max-width: 900px;
+    max-height: 600px;
+}
+
+
+hr {
+    width: 55%;
+}
+
