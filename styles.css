@@ -59,14 +59,26 @@ h1 {
     color: transparent
 }
 
-/* h3 {
-    text-align: center;
-} */
+h2, p {
+    margin: 0px 0px 10px 5px;
+    row-gap: 5rem;
+}
 
 
 .wang {
-    margin: 0px 0px 0px 0px;
     float: left;
+}
+
+/* .nian {
+    float: right;
+} */
+
+.dusk {
+    margin: 0px 0px 0px 260px
+}
+
+.sui-proxies {
+    margin: 0px 0px 0px 540px;
 }
 
 .head-icon {
@@ -87,6 +99,18 @@ h1 {
     max-height: 600px;
 }
 
+.image-on-side {
+    margin: 0px 125px 0px 50px;
+    float: right;
+}
+
+.past-patches {
+    margin: 0px 0px 0px 150px;
+}
+
+.past-patches-intro {
+    margin: 50px 0px 0px 0px;
+}
 
 hr {
     width: 55%;
