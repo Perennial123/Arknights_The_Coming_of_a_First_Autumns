@@ -1,4 +1,4 @@
-# Arknights_The_Coming_of_a_Thousand_Autumns
+# Arknights_The_First_of_a_Thousand_Autumns
 Arknights fan website, specifically for the game patch "The First of a Thousand Autumns" using HTML and CSS
 
 The website is not yet finished, but should be completed by the end of next two to three months.
