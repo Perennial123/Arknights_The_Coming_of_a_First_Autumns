@@ -1,5 +1,6 @@
 * {
     font-size: 20px;
+    box-sizing: border-box;
 }
 
 @font-face {
@@ -46,6 +47,7 @@ body {
     /* #F4F6F6 */
     min-height: 100vh;
     font-family: "nuku", 'Courier New', Courier, monospace;
+    overflow-x: hidden;
 }
 
 h1 {
@@ -67,6 +69,8 @@ h2, p {
 
 .wang {
     float: left;
+    width: min(500px, 100%);
+    height: auto;
 }
 
 /* .nian {
@@ -74,11 +78,15 @@ h2, p {
 } */
 
 .dusk {
-    margin: 0px 0px 0px 260px
+    display: block;
+    width: min(475px, 100%);
+    height: auto;
+    margin: 0 auto;
 }
 
 .sui-proxies {
-    margin: 0px 0px 0px 540px;
+    max-width: 20rem;
+    margin: 0 auto;
 }
 
 .head-icon {
@@ -87,6 +95,8 @@ h2, p {
     margin: 0 auto;
     width: 300px;
     height: 300px;
+    max-width: 80%;
+    object-fit: contain;
 }
 
 .images {
@@ -97,6 +107,8 @@ h2, p {
     size: 100px;
     max-width: 900px;
     max-height: 600px;
+    width: auto;
+    height: auto;
 }
 
 .image-on-side {
@@ -105,7 +117,8 @@ h2, p {
 }
 
 .past-patches {
-    margin: 0px 0px 0px 150px;
+    max-width: 900px;
+    margin: 0 auto;
 }
 
 .past-patches-intro {
@@ -114,5 +127,66 @@ h2, p {
 
 hr {
     width: 55%;
+}
+
+audio {
+    display: block;
+    max-width: 100%;
+}
+
+@media (max-width: 700px) {
+    * {
+        font-size: 16px;
+    }
+
+    .navbar a {
+        padding: 12px 8px;
+    }
+
+    h1 {
+        font-size: 42px;
+        line-height: 1.1;
+        margin: 20px 8px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    h2, p {
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+
+    .image-on-side {
+        float: none;
+        display: block;
+        width: min(100%, 500px);
+        margin: 0 auto 16px;
+    }
+
+    .past-patches-intro {
+        margin-top: 30px;
+    }
+
+    .past-patches {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .past-patches .images {
+        display: block;
+        width: calc(100% - 24px);
+        max-height: none;
+        margin: 0 auto 16px;
+    }
+
+    hr {
+        width: calc(100% - 24px);
+    }
 }
 
